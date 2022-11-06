@@ -1,0 +1,396 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    padding: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    color: rgb(30, 108, 175);
+    font-size: 50p;
+}
+
+a {
+    color: #6e7ea9;
+    text-decoration: none;
+}
+
+/*Page 1*/
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    color: #6e7ea9;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: flex;
+    word-spacing:25px;
+}
+
+.nav>li{
+    padding: 0 0 15px 20px;
+}
+
+/*Page 2*/
+.header h1 {
+    font-size: 80px;
+    text-align: left;
+    color: #192b59;
+}
+
+/*Page 3*/
+.sponsors{
+    background-color: #1085e4;
+    display: flex;
+    list-style-type: none;
+}
+.sponsors>li{
+    padding: 0 0 15px 15px;
+}
+
+/*Page 4*/
+.fea h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #192b59;
+}
+
+.fea h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #7581a1;
+}
+
+.fea a {
+    font-size: 14px;
+    text-align: center;
+    color: #1085e4;
+}
+
+/*Page 5*/
+.subscribe h6{
+    font-size: 14px;
+    text-align: left;
+    color: #00bffe;
+    text-transform: uppercase; 
+}
+
+.subscribe h1{
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.subscribe p{
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.subscribe button{
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Page 6*/
+.Features h1 {
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+
+.Features h3 {
+    font-size: 16px;
+    text-align: left;
+    color: #5a6789;
+}
+
+.Features small {
+    font-size: 14px;
+    text-align: left;
+    color: #7581a1;
+}
+
+.FunFucts h2{
+    font-size: 50px;
+    text-align: center;
+    color: #192b59;
+}
+
+.Fun li{
+    font-size: 12px;
+    text-align: center;
+    color: #1085e4;
+}
+
+.Fun span{
+    font-size: 60px;
+    text-align: center;
+    color: #bacbdc;
+}
+
+/*Page 7*/
+.Video h2{
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+
+.Video p{
+    font-size: 16px;
+    text-align: left;
+    color: #7581a1;
+}
+
+/*Page 8*/
+.Loremipsum h1{
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+
+.Loremipsum p{
+    font-size: 16px;
+    text-align: left;
+    color: #7581a1;
+}
+
+.Loremipsum button{
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Loremipsum2 h1{
+    font-size: 50px;
+    text-align: left;
+    color: #192b59;
+}
+
+.Loremipsum2 p{
+    font-size: 16px;
+    text-align: left;
+    color: #7581a1;
+}
+
+.Loremipsum2 button{
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Battan and others*/
+.btn-primary{
+    color: #fff;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 15px 28px;
+    border: 1px solid #1085e4;
+}
+
+.btn-secondary{
+    color: #7e8bae;
+    background-color: #494c52; 
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 15px 28px;
+    border: 1px solid #1085e4;
+}
+
+.btn-free {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    background-color: transparent;
+    padding: 15px 28px;
+    letter-spacing: 1.5px;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #1085e4;
+}
+.btn-secondary:hover {
+    background-color: #fff;
+}
+
+.btn-five {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 6px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 14px 42px;
+    border: 1px solid #1085e4;
+    letter-spacing: 1.5px;
+}
+.screen_preview h4 {
+    font-size: 16px;
+    text-align: center;
+    color: #1085e4;
+}
+.screen_preview h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #192b59;
+}
+.testimonials{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+}
+.testimonials_1{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.testimonials h4 {
+    font-size: 18px;
+    text-align: left;
+    color: #1085e4;
+}
+.testimonials h2 {
+    font-size: 40px;
+    text-align: left;
+    color: #192b59;
+}
+.client {
+    font-size: 22px;
+    text-align: left;
+    color: #000958;
+}
+.ceo {
+    font-size: 14px;
+    text-align: left;
+    color: #1085e4;
+}
+.our_plans h4{
+    font-size: 18px;
+    text-align: center;
+    color: #1085e4;
+}
+.our_plans h2{
+    font-size: 40px;
+    text-align: center;
+    color: #192b59;
+}
+.Free h1{
+    font-size: 70px;
+    text-align: left;
+    margin: 0 0;
+    color: #000958;
+}
+.started {
+    font-size: 14px;
+    text-align: left;
+    color: #0084ff;
+}
+.Free>.started{
+    margin: 0 0;
+}
+.Prise {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.btn-six {
+    background-color: rgba(28,28,28,0);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 13px 36px;
+    border: 1px solid #6e808f;
+    letter-spacing: 1.5px;
+}
+.btn-seven {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 700;
+    border-radius: 30px;
+    padding: 13px 36px;
+    border: 1px solid #1085e4;
+    letter-spacing: 1.5px;
+}
+.btn-six:hover {
+    color: #ff0;
+    background: #000;
+    border: 1px solid #ff0;
+    }
+.angels_1 h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #85c8ff;
+    }
+
+.angels_1 h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    background-color: #0084ff;
+}
+.Personal {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0;
+}
+.Personal h5{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #1a88e1;
+}
+.Personal h4{
+    font-size: 26px;
+    text-align: left;
+    color: #192b59;
+}
+/*Trial*/
+
+.Trial{
+    color: #000000;
+    background-color: floralwhite;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
+.Trial h2{
+    text-align: center;
+    max-width: 25%;
+    font-size: 40px;
+    word-spacing: 15px;
+    padding: 15px;
+    margin: 0;
+}
+
+.forms{
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 15px;
+    margin: 15px;
+}
